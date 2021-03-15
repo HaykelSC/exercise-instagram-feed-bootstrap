@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+       <link rel= "stylesheet" href="style.css">
+       <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+         <!-- instagram logo and name-->  
+        <div class="row d-flex justify-content-center ">
+			<div class="col-12 ">
+				<nav class="navbar navbar-light  bg-light">
+					<a class="navbar-brand p-4 ml-5  text-muted" href="https://www.instagram.com">
+					<i class="fab fa-instagram fa-lg "></i>
+						Instagram
+                    </a>
+                    <!-- new post button--> 
+					<div class="nav-item pr-4 d-flex justify-content-end">
+                        <button type="button" class="btn btn-info btn-lg bg-success" data-toggle="modal" data-target="#myModal">Create a new post
+                        </button>
+					<div id="myModal" class="modal fade" role="dialog">
+                        <!-- modal--> 
+            <div class="modal-dialog">
+            <div class="modal-body">
+                <div class="modal-body border-dark rounded m-3">
+                    <p> <placeholder></placeholder>
+                    </p>
+                </div>
+                 <!-- modal icons--> 
+                <div class="icons">
+                    <i class="fas fa-camera" style="font-size: 20px; margin-right:2px; border: 1.5px solid lightgray; padding: 6px; border-radius: 4px;"></i>
+                    <i class="fas fa-map-marker-alt border border-secondary rounded-lg p-1"></i>    
+                </div>
+                <!-- modal footer-->
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-default border border-secondary" data-dismiss="modal">cancel</button>
+                        <button type="button" class="btn btn-default text-white bg-success" data-dismiss="modal">Publish</button>
+                </div>
+            </div>
+            </div>
+                </div>    
+                </div>
+            <!-- dropdown button--> 
+        <div class="nav-item dropdown ">
+			<a class="nav-link dropdown-toggle text-muted" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<i class="fas fa-cog"></i>
+			</a> <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Log Out</a>
+				</div>
+		</div>
+			</div>
+		        </nav>
+		</div>
+        <!-- display nav bar button--> 
+        <div class="col-12 d-flex justify-content-center">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th bg-secondary"></i></a>
+                </li>
+                <li class="nav-item2" role="presentation">
+                    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square bg-secondary"></i></a>
+                </li>
+                </ul>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+        <!-- first pill display pictures--> 
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <!-- first row photos--> 
+        <div class="container-first-row-photos">
+			<div class="row">
+				<div class="col-lg-4 p-1">
+                    <img src= "https://thehappypuppysite.com/wp-content/uploads/2015/09/The-Siberian-Husky-HP-long.jpg" width=100% height=400>
+                </div>
+                <div class="col-lg-4 p-1">
+                    <img src="https://cnet2.cbsistatic.com/img/F3DYgaEtDIxwSqgLJ7H5B3gR9jg=/940x0/2020/06/23/8e2ffd37-a02c-452c-82e8-238f2830ebd8/s2721hgf-g5-aw510k-aw510m-aw510h-ecosystem-shot.jpg" width=100% height=400>
+                </div>
+                <div class="col-lg-4 p-1">
+                    <img src="https://live.mrf.io/statics/i/ps/www.muycomputer.com/wp-content/uploads/2016/07/portada.jpg?width=1200&enable=upscale" width=100% height=400>
+                </div>
+            </div>
+        </div>
+        <!-- Second row photos--> 
+        <div class="contianer-second-row-photos">
+            <div class="row">
+                <div class="col-lg-4 p-1">
+                    <img src= "https://www.hola.com/imagenes/estar-bien/20200831174373/razas-de-perro-mas-populares-pug-carlino/0-860-24/pug-m.jpg" width=100% height=400>
+                </div> 
+                <div class="col-lg-4 p-1">
+                    <img src= "https://i.pinimg.com/originals/50/53/80/505380251e52fbb11a38a8bbd64c53a6.jpg" width=100% height=400>
+                </div> 
+                <div class="col-lg-4 p-1">
+                    <img src= "https://media0.giphy.com/media/LmNwrBhejkK9EFP504/200.gif" width=100% height=400>
+                </div> 
+            </div> 
+        </div> 
+        <!-- Third row photos--> 
+        <div class="contianer-second-row-photos">
+            <div class="row">
+                <div class="col-lg-4 p-1">
+                    <img src= "https://i.pcmag.com/imagery/reviews/04xTDKsqdUzgKvWI7MGVnG3-1..1598204639.jpg" width=100% height=400>
+                </div> 
+                <div class="col-lg-4 p-1">
+                    <img src= "https://media0.giphy.com/media/gdf0DQz1Z9Ru3uy1El/giphy.gif" width=100% height=400>
+                </div> 
+                <div class="col-lg-4 p-1">
+                    <img src= "https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg" width=100% height=400>
+                </div> 
+            </div> 
+        </div> 
+        <!-- traditional Instagram feed--> 
+        <div class="tab-pane fade bg-light" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="col-lg-12 d-flex justify-content-center p-4">
+                <div class="card" style="width: 40rem;">
+                    <div class="post-header d-flex bd-highlight">
+                    <!-- First Photo-->     
+                        <!-- Header--> 
+                        <p class="title p-2 w-100 bd-highlight">
+                            <strong>My first photo</strong>
+                        </p>
+                        <p class="number p-2 flex-shrink-1 bd-highlight mr-2">
+                            12/14
+                        </p>
+                    </div>
+                    <!-- Photo--> 
+                    <img src="https://thehappypuppysite.com/wp-content/uploads/2015/09/The-Siberian-Husky-HP-long.jpg" class="card-img-top" alt="...">
+                    <div class="img-caption p-2">
+                        <p><b>23 Likes</b></p>
+                    </div>
+                    <!-- Content--> 
+                    <div class="card-body">
+                        <p class="card-tex">
+                            This is my firstphoto of the feed. This is a multi line comment for testing purposes. I am learning to code with #BreatheCode.
+                        </p>
+                    </div>
+                    <!-- Footer--> 
+                    <div class="footer d-flex justigy-content-between text-mute">
+                        <div class="footer left d-flex justify-content-between ml-2">
+                            <i class="far fa-heart"></i>
+                            <p class="comment ml-4">Comment...</p>
+                        </div>
+                    <div class="footer-right mr-3">
+						<i class="fas fa-ellipsis-v"></i>
+					</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Foto-->
+                <!-- Header-->
+            <div class="col-lg-12 d-flex justify-content-center p-4">
+                <div class="card" style="width: 40rem;">
+                    <div class="post-header d-flex bd-highlight">         
+                        <p class="title p-2 w-100 bd-highlight">
+                            <strong>My first video</strong>
+                        </p>
+                        <p class="number p-2 flex-shrink-1 bd-highlight mr-2">
+                            12/14
+                        </p>
+                    </div>
+                    <!-- Photo--> 
+                    <img src="https://media0.giphy.com/media/LmNwrBhejkK9EFP504/200.gif" class="card-img-top" alt="...">
+                    <div class="img-caption p-2">
+                        <p><b>23 Likes</b></p>
+                    </div>
+                    <!-- Content--> 
+                    <div class="card-body">
+                        <p class="card-tex">
+                            This is my firstphoto of the feed. This is a multi line comment for testing purposes. I am learning to code with #BreatheCode.
+                        </p>
+                    </div>
+                    <!-- Footer--> 
+                    <div class="footer d-flex justigy-content-between text-mute">
+                        <div class="footer left d-flex justify-content-between ml-2">
+                            <i class="far fa-heart"></i>
+                            <p class="comment ml-4">Comment...</p>
+                        </div>
+                    <div class="footer-right mr-3">
+						<i class="fas fa-ellipsis-v"></i>
+					</div>
+                    </div>
+                </div>
+            </div>   
+            <!-- Third Foto-->
+                <!-- Header-->
+            <div class="col-lg-12 d-flex justify-content-center p-4">
+                <div class="card" style="width: 40rem;">
+                    <div class="post-header d-flex bd-highlight">         
+                        <p class="title p-2 w-100 bd-highlight">
+                            <strong>My first photo</strong>
+                        </p>
+                        <p class="number p-2 flex-shrink-1 bd-highlight mr-2">
+                            12/14
+                        </p>
+                    </div>
+                    <!-- Photo--> 
+                    <img src="https://live.mrf.io/statics/i/ps/www.muycomputer.com/wp-content/uploads/2016/07/portada.jpg?width=1200&enable=upscale" class="card-img-top" alt="...">
+                    <div class="img-caption p-2">
+                        <p><b>23 Likes</b></p>
+                    </div>
+                    <!-- Content--> 
+                    <div class="card-body">
+                        <p class="card-tex">
+                            This is my firstphoto of the feed. This is a multi line comment for testing purposes. I am learning to code with #BreatheCode.
+                        </p>
+                    </div>
+                    <!-- Footer--> 
+                    <div class="footer d-flex justigy-content-between text-mute">
+                        <div class="footer left d-flex justify-content-between ml-2">
+                            <i class="far fa-heart"></i>
+                            <p class="comment ml-4">Comment...</p>
+                        </div>
+                    <div class="footer-right mr-3">
+						<i class="fas fa-ellipsis-v"></i>
+					</div>
+                    </div>
+                </div>
+            </div>
+             <!-- four Foto-->
+                <!-- Header-->
+            <div class="col-lg-12 d-flex justify-content-center p-4">
+                <div class="card" style="width: 40rem;">
+                    <div class="post-header d-flex bd-highlight">         
+                        <p class="title p-2 w-100 bd-highlight">
+                            <strong>My first photo</strong>
+                        </p>
+                        <p class="number p-2 flex-shrink-1 bd-highlight mr-2">
+                            12/14
+                        </p>
+                    </div>
+                    <!-- Photo--> 
+                    <img src="https://i.pcmag.com/imagery/reviews/04xTDKsqdUzgKvWI7MGVnG3-1..1598204639.jpg" class="card-img-top" alt="...">
+                    <div class="img-caption p-2">
+                        <p><b>23 Likes</b></p>
+                    </div>
+                    <!-- Content--> 
+                    <div class="card-body">
+                        <p class="card-tex">
+                            This is my firstphoto of the feed. This is a multi line comment for testing purposes. I am learning to code with #BreatheCode.
+                        </p>
+                    </div>
+                    <!-- Footer--> 
+                    <div class="footer d-flex justigy-content-between text-mute">
+                        <div class="footer left d-flex justify-content-between ml-2">
+                            <i class="far fa-heart"></i>
+                            <p class="comment ml-4">Comment...</p>
+                        </div>
+                    <div class="footer-right mr-3">
+						<i class="fas fa-ellipsis-v"></i>
+					</div>
+                    </div>
+                </div>
+            </div>          
+<!-- cierre container fluid--> 
+             </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
